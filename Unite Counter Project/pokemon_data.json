@@ -1,0 +1,256 @@
+{ 
+"Cinderace": {
+    "strong_against": ["Slowbro", "Goodra", "Snorlax", "Trevenant"],
+    "synergizes_with": ["Snorlax", "Slowbro", "Blissey", "Eldegoss"],
+    "is_countered_by": ["Zacian", "Latios", "Talonflame", "Mimikyu"]},
+"Decidueye": {
+    "strong_against": ["Slowbro", "Goodra", "Snorlax", "Trevenant"],
+    "synergizes_with": ["Snorlax", "Slowbro", "Blastoise", "Blissey"],
+    "is_countered_by": ["Latios", "Talonflame", "Zoroark", "Gengar"]
+    },
+    "Greninja": {
+    "strong_against": ["Snorlax", "Slowbro", "Goodra", "Mamoswine"],
+    "synergizes_with": ["Snorlax", "Blissey", "Eldegoss", "Slowbro"],
+    "is_countered_by": ["Zacian", "Mimikyu", "Talonflame", "Latios"]
+    },
+    "Alolan Ninetails": {
+        "strong against": ["Zacian", "Blaziken", "Dragonite", "Garchomp"],
+        "is countered by": ["Mewtwo Y", "Slowbro", "Trevenant", "Blissey"],
+        "synergizes with": ["Blastoise", "Mamoswine", "Gardevoir", "Mewtwo X", "Urshifu"]
+    }, 
+    "Blissey": {
+        "strong_against": ["Gengar", "Zoroark", "Absol", "Alolan Ninetales"],
+        "synergizes_with": ["Mewtwo Y", "Cinderace", "Zacian", "Dragapult"],
+        "is_countered_by": ["Mewtwo X", "Buzzwole", "Lucario", "Clefable"]
+    },
+    "Buzzwole": {
+        "strong_against": ["Blissey", "Umbreon", "Snorlax", "Tyranitar"],
+        "synergizes_with": ["Comfey", "Hoopa", "Eldegoss", "Alcremie"],
+        "is_countered_by": ["Gardevoir", "Mewtwo Y", "Cramorant", "Slowbro"]
+    },
+    "Chandelure": {
+        "strong_against": ["Metagross", "Trevenant", "Goodra", "Slowbro"],
+        "synergizes_with": ["Snorlax", "Slowbro", "Wigglytuff", "Blastoise"],
+        "is_countered_by": ["Zacian", "Latios", "Talonflame", "Zoroark"]
+    },
+     "Eldegoss": {
+    "strong_against": ["Buzzwole", "Machamp", "Tsareena", "Garchomp"],
+    "synergizes_with": ["Zacian", "Mewtwo Y", "Cinderace", "Dragapult"],
+    "is_countered_by": ["Clefable", "Mr. Mime", "Blastoise", "Gengar"]
+  },
+  "Gardevoir": {
+    "strong_against": ["Slowbro", "Trevenant", "Snorlax", "Buzzwole"],
+    "synergizes_with": ["Slowbro", "Blastoise", "Alolan Ninetales", "Snorlax"],
+    "is_countered_by": ["Zacian", "Latios", "Zoroark", "Gengar"]
+  },
+  "Gengar": {
+    "strong_against": ["Gardevoir", "Decidueye", "Inteleon", "Cinderace"],
+    "synergizes_with": ["Trevenant", "Snorlax", "Wigglytuff", "Hoopa"],
+    "is_countered_by": ["Blissey", "Clefable", "Slowbro", "Umbreon"]
+  },
+  "Dragonite": {
+    "strong_against": ["Gardevoir", "Mewtwo Y", "Venusaur", "Decidueye"],
+    "synergizes_with": ["Hoopa", "Eldegoss", "Gardevoir", "Blissey"],
+    "is_countered_by": ["Zacian", "Alolan Ninetales", "Umbreon", "Slowbro"]
+  },
+   "Goodra": {
+    "strong_against": ["Mewtwo Y", "Gardevoir", "Pikachu", "Venusaur"],
+    "synergizes_with": ["Eldegoss", "Blissey", "Comfey", "Clefable"],
+    "is_countered_by": ["Zacian", "Cinderace", "Dragapult", "Venusaur"]  
+   },
+   "Charizard": {
+    "strong_against": ["Metagross", "Zacian", "Tsareena", "Scizor"],
+    "synergizes_with": ["Slowbro", "Wigglytuff", "Snorlax", "Eldegoss"],
+    "is_countered_by": ["Blastoise", "Mewtwo Y", "Inteleon", "Pikachu"]
+  },
+  "Lucario": {
+    "strong_against": ["Greedent", "Decidueye", "Tyranitar", "Pikachu"],
+    "synergizes_with": ["Hoopa", "Eldegoss", "Blissey", "Clefable"],
+    "is_countered_by": ["Slowbro", "Clefable", "Gardevoir", "Alolan Ninetales"]
+  },
+  "Machamp": {
+    "strong_against": ["Tyranitar", "Greedent", "Snorlax", "Blissey"],
+    "synergizes_with": ["Hoopa", "Comfey", "Eldegoss", "Clefable"],
+    "is_countered_by": ["Gardevoir", "Sylveon", "Mewtwo Y", "Slowbro"]
+  },
+  "Snorlax": {
+    "strong_against": ["Cinderace", "Inteleon", "Mewtwo Y", "Gardevoir"],
+    "synergizes_with": ["Gardevoir", "Mewtwo Y", "Cinderace", "Urshifu"],
+    "is_countered_by": ["Zacian", "Mewtwo X", "Buzzwole", "Machamp"]
+  },
+  "Pikachu": {
+    "strong_against": ["Talonflame", "Greninja", "Charizard", "Slowbro"],
+    "synergizes_with": ["Snorlax", "Blastoise", "Slowbro", "Wigglytuff"],
+    "is_countered_by": ["Trevenant", "Goodra", "Lucario", "Mewtwo Y"]
+  },
+  "Venusaur": {
+    "strong_against": ["Blastoise", "Slowbro", "Goodra", "Mamoswine"],
+    "synergizes_with": ["Snorlax", "Slowbro", "Wigglytuff", "Ninetales"],
+    "is_countered_by": ["Zacian", "Talonflame", "Gengar", "Dragonite"]
+  },
+  "Sylveon": {
+    "strong_against": ["Machamp", "Buzzwole", "Garchomp", "Tyranitar"],
+    "synergizes_with": ["Slowbro", "Snorlax", "Eldegoss", "Blissey"],
+    "is_countered_by": ["Cinderace", "Inteleon", "Mewtwo Y", "Zacian"]
+  },
+  "Talonflame": {
+    "strong_against": ["Decidueye", "Inteleon", "Gardevoir", "Greninja"],
+    "synergizes_with": ["Hoopa", "Eldegoss", "Sableye", "Wigglytuff"],
+    "is_countered_by": ["Slowbro", "Pikachu", "Goodra", "Blissey"]
+  },
+  "Trevenant": {
+    "strong_against": ["Pikachu", "Mewtwo Y", "Delphox", "Inteleon"],
+    "synergizes_with": ["Gengar", "Gardevoir", "Cinderace", "Mew"],
+    "is_countered_by": ["Cinderace", "Chandelure", "Decidueye", "Zacian"]
+  },
+  "Tsareena": {
+    "strong_against": ["Goodra", "Snorlax", "Blissey", "Umbreon"],
+    "synergizes_with": ["Hoopa", "Eldegoss", "Comfey", "Blissey"],
+    "is_countered_by": ["Charizard", "Gardevoir", "Slowbro", "Cramorant"]
+  },
+  "Tyranitar": {
+    "strong_against": ["Gardevoir", "Mewtwo Y", "Espeon", "Decidueye"],
+    "synergizes_with": ["Hoopa", "Eldegoss", "Sableye", "Clefable"],
+    "is_countered_by": ["Zacian", "Buzzwole", "Machamp", "Sylveon"]
+  },
+  "Urshifu": {
+    "strong_against": ["Blissey", "Umbreon", "Snorlax", "Goodra"],
+    "synergizes_with": ["Hoopa", "Eldegoss", "Comfey", "Clefable"],
+    "is_countered_by": ["Slowbro", "Clefable", "Alolan Ninetales", "Wigglytuff"]
+  },
+  "Zeraora": {
+    "strong_against": ["Inteleon", "Decidueye", "Cinderace", "Greninja"],
+    "synergizes_with": ["Hoopa", "Eldegoss", "Wigglytuff", "Slowbro"],
+    "is_countered_by": ["Goodra", "Trevenant", "Snorlax", "Blissey"]
+  },
+  "Zoroark": {
+    "strong_against": ["Gardevoir", "Decidueye", "Mew", "Espeon"],
+    "synergizes_with": ["Hoopa", "Clefable", "Eldegoss", "Sableye"],
+    "is_countered_by": ["Slowbro", "Umbreon", "Blissey", "Goodra"]
+  },
+  "Wigglytuff": {
+    "strong_against": ["Zacian", "Urshifu", "Tsareena", "Buzzwole"],
+    "synergizes_with": ["Gardevoir", "Mewtwo Y", "Cinderace", "Pikachu"],
+    "is_countered_by": ["Clefable", "Blissey", "Venusaur", "Slowbro"]
+  },
+  "Absol": {
+    "strong_against": ["Mew", "Gardevoir", "Decidueye", "Espeon"],
+    "synergizes_with": ["Hoopa", "Wigglytuff", "Sableye", "Eldegoss"],
+    "is_countered_by": ["Goodra", "Trevenant", "Snorlax", "Blissey"]
+  },
+  "Aegislash": {
+    "strong_against": ["Mewtwo Y", "Gardevoir", "Decidueye", "Sylveon"],
+    "synergizes_with": ["Wigglytuff", "Slowbro", "Snorlax", "Alolan Ninetales"],
+    "is_countered_by": ["Charizard", "Mewtwo X", "Gardevoir", "Tyranitar"]
+  },
+  "Comfey": {
+    "strong_against": ["Buzzwole", "Machamp", "Tsareena", "Tyranitar"],
+    "synergizes_with": ["Zacian", "Mewtwo X", "Buzzwole", "Urshifu"],
+    "is_countered_by": ["Clefable", "Gardevoir", "Blastoise", "Delphox"]
+  },
+  "Cramorant": {
+    "strong_against": ["Tsareena", "Blaziken", "Zacian", "Buzzwole"],
+    "synergizes_with": ["Snorlax", "Slowbro", "Wigglytuff", "Blastoise"],
+    "is_countered_by": ["Mewtwo Y", "Inteleon", "Lapras", "Dragonite"]
+  },
+  "Crustle": {
+    "strong_against": ["Cinderace", "Greninja", "Decidueye", "Duraludon"],
+    "synergizes_with": ["Hoopa", "Talonflame", "Gardevoir", "Mew"],
+    "is_countered_by": ["Zacian", "Mewtwo X", "Machamp", "Buzzwole"]
+  },
+  "Delphox": {
+    "strong_against": ["Comfey", "Trevenant", "Goodra", "Aegislash"],
+    "synergizes_with": ["Slowbro", "Snorlax", "Wigglytuff", "Blastoise"],
+    "is_countered_by": ["Latios", "Talonflame", "Zoroark", "Zacian"]
+  },
+  "Dodrio": {
+    "strong_against": ["Inteleon", "Decidueye", "Gardevoir", "Mewtwo Y"],
+    "synergizes_with": ["Hoopa", "Eldegoss", "Sableye", "Clefable"],
+    "is_countered_by": ["Slowbro", "Umbreon", "Pikachu", "Alolan Ninetales"]
+  },
+  "Duraludon": {
+    "strong_against": ["Goodra", "Slowbro", "Trevenant", "Mamoswine"],
+    "synergizes_with": ["Snorlax", "Blissey", "Slowbro", "Wigglytuff"],
+    "is_countered_by": ["Zacian", "Latios", "Talonflame", "Crustle"]
+  },
+  "Espeon": {
+    "strong_against": ["Venusaur", "Sylveon", "Charizard", "Pikachu"],
+    "synergizes_with": ["Slowbro", "Snorlax", "Wigglytuff", "Blastoise"],
+    "is_countered_by": ["Zoroark", "Absol", "Latios", "Talonflame"]
+  },
+  "Garchomp": {
+    "strong_against": ["Tyranitar", "Duraludon", "Decidueye", "Pikachu"],
+    "synergizes_with": ["Hoopa", "Eldegoss", "Clefable", "Wigglytuff"],
+    "is_countered_by": ["Gardevoir", "Sylveon", "Mewtwo Y", "Alolan Ninetales"]
+  },
+  "Glaceon": {
+    "strong_against": ["Dragonite", "Garchomp", "Tsareena", "Goodra"],
+    "synergizes_with": ["Slowbro", "Snorlax", "Blastoise", "Wigglytuff"],
+    "is_countered_by": ["Zacian", "Mewtwo X", "Buzzwole", "Latios"]
+  },
+  "Greedent": {
+    "strong_against": ["Inteleon", "Decidueye", "Sableye", "Metagross"],
+    "synergizes_with": ["Hoopa", "Eldegoss", "Sableye", "Clefable"],
+    "is_countered_by": ["Buzzwole", "Machamp", "Lucario", "Zacian"]
+  },
+  "Gyarados": {
+    "strong_against": ["Pikachu", "Gardevoir", "Delphox", "Chandelure"],
+    "synergizes_with": ["Hoopa", "Eldegoss", "Blissey", "Clefable"],
+    "is_countered_by": ["Zacian", "Mewtwo Y", "Pikachu", "Alolan Ninetales"]
+  },
+  "Hoopa": {
+    "strong_against": ["Greedent", "Dodrio", "Sableye", "Crustle"],
+    "synergizes_with": ["Zacian", "Urshifu", "Tsareena", "Buzzwole"],
+    "is_countered_by": ["Zoroark", "Latios", "Talonflame", "Gengar"]
+  },
+  "Lapras": {
+    "strong_against": ["Charizard", "Cramorant", "Inteleon", "Mew"],
+    "synergizes_with": ["Alolan Ninetales", "Gardevoir", "Pikachu", "Blastoise"],
+    "is_countered_by": ["Zacian", "Venusaur", "Leafeon", "Mewtwo Y"]
+  },
+  "Leafeon": {
+    "strong_against": ["Mewtwo Y", "Gardevoir", "Decidueye", "Inteleon"],
+    "synergizes_with": ["Comfey", "Hoopa", "Eldegoss", "Blissey"],
+    "is_countered_by": ["Slowbro", "Goodra", "Trevenant", "Snorlax"]
+  },
+  "Mamoswine": {
+    "strong_against": ["Zacian", "Dragonite", "Garchomp", "Dodrio"],
+    "synergizes_with": ["Alolan Ninetales", "Gardevoir", "Pikachu", "Urshifu"],
+    "is_countered_by": ["Venusaur", "Duraludon", "Glaceon", "Mewtwo Y"]
+  },
+  "Meowscarada": {
+    "strong_against": ["Gardevoir", "Decidueye", "Mew", "Espeon"],
+    "synergizes_with": ["Slowbro", "Snorlax", "Clefable", "Hoopa"],
+    "is_countered_by": ["Zacian", "Goodra", "Trevenant", "Umbreon"]
+  },
+  "Mr. Mime": {
+    "strong_against": ["Eldegoss", "Comfey", "Blissey", "Dodrio"],
+    "synergizes_with": ["Urshifu", "Buzzwole", "Machamp", "Tyranitar"],
+    "is_countered_by": ["Gardevoir", "Mewtwo Y", "Inteleon", "Clefable"]
+  },
+  "Sableye": {
+    "strong_against": ["Inteleon", "Decidueye", "Cinderace", "Greninja"],
+    "synergizes_with": ["Zoroark", "Gengar", "Talonflame", "Dodrio"],
+    "is_countered_by": ["Clefable", "Blissey", "Goodra", "Trevenant"]
+  },
+  "Scizor": {
+    "strong_against": ["Zoroark", "Talonflame", "Absol", "Gengar"],
+    "synergizes_with": ["Hoopa", "Eldegoss", "Clefable", "Wigglytuff"],
+    "is_countered_by": ["Charizard", "Gardevoir", "Mewtwo Y", "Chandelure"]
+  },
+  "Azumarill": {
+    "strong_against": ["Gengar", "Talonflame", "Zoroark", "Absol"],
+    "synergizes_with": ["Hoopa", "Eldegoss", "Comfey", "Wigglytuff"],
+    "is_countered_by": ["Venusaur", "Gardevoir", "Mewtwo Y", "Pikachu"]
+  },
+  "Mewtwo X": {
+    "strong_against": ["Blissey", "Snorlax", "Crustle", "Goodra"],
+    "synergizes_with": ["Eldegoss", "Comfey", "Blastoise", "Snorlax"],
+    "is_countered_by": ["Slowbro", "Mewtwo Y", "Dragapult", "Gardevoir"]
+  },
+  "Mewtwo Y": {
+    "strong_against": ["Trevenant", "Goodra", "Charizard", "Venusaur"],
+    "synergizes_with": ["Snorlax", "Blissey", "Slowbro", "Clefable"],
+    "is_countered_by": ["Zacian", "Latios", "Leafeon", "Dodrio"]
+  }
+}
