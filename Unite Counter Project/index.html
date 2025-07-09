@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pokémon Unite Synergy & Counter Lookup</title>
+  <style>
+    body { font-family: 'Segoe UI', Arial, sans-serif; background: #f9fafc; color: #333; margin: 40px; }
+    h1 { color: #e94c89; }
+    input, button { padding: 8px; font-size: 1em; }
+    .result { margin-top: 20px; padding: 16px; border-radius: 8px; background: #fff5fa; }
+  </style>
+</head>
+<body>
+  <h1>Pokémon Unite Synergy & Counter Lookup</h1>
+  <p>Type a Pokémon name below and hit "Search":</p>
+  <input type="text" id="pokemonInput" placeholder="e.g. Pikachu" />
+  <button onclick="lookupPokemon()">Search</button>
+  <div class="result" id="result"></div>
+
+  <script>
+    // Your Pokémon data (add more as you wish!)
+    const pokemonData = {
+      "Pikachu": {
+        "synergizes_with": ["Snorlax", "Blastoise", "Slowbro", "Wigglytuff"],
+        "is_countered_by": ["Trevenant", "Goodra", "Lucario", "Mewtwo Y"],
+        "strong_against": ["Talonflame", "Greninja", "Charizard", "Slowbro"]
+      },
+      "Cinderace": {
+        "synergizes_with": ["Snorlax", "Slowbro", "Blissey", "Eldegoss"],
+        "is_countered_by": ["Zacian", "Latios", "Talonflame", "Mimikyu"],
+        "strong_against": ["Slowbro", "Goodra", "Snorlax", "Trevenant"]
+      }
+      // Add more Pokémon here!
+    };
+
+    function lookupPokemon() {
+      const input = document.getElementById('pokemonInput').value.trim();
+      let found = false;
+      for (let name in pokemonData) {
+        if (name.toLowerCase() === input.toLowerCase()) {
+          const data = pokemonData[name];
+          document.getElementById('result').innerHTML =
+            `<b>${name}</b><br>
+            <b>Works well with:</b> ${data.synergizes_with.join(", ")}<br>
+            <b>Is strong against:</b> ${data.strong_against.join(", ")}<br>
+            <b>Is countered by:</b> ${data.is_countered_by.join(", ")}`;
+          found = true;
+          break;
+        }
+      }
+      if (!found) {
+        document.getElementById('result').innerHTML =
+          "Sorry, I don't know that Pokémon yet. Try another name!";
+      }
+    }
+  </script>
+</body>
+</html>
+<!-- End of index.html -->
+<!-- This is a simple HTML page that allows users to look up Pokémon Unite synergy and counter information
